@@ -1,0 +1,180 @@
+##TITLE= Audit trail, TopSpin 4.1.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= hvonesh
+$$ /home/hvonesh/data/hv21_0962/200/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-05-14 19:54:46.448 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+$$ /home/hvonesh/data/hv21_0949_5_14_21/3/audita.txt
+(   2,<2021-05-14 19:55:10.322 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '3bc77fce-b4ee-11eb-a92f-00139539c4a7'
+       started at 2021-05-14 19:54:46.458 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-05-14 19:55:10.320 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 64K
+       F6 AB C0 4B 6C E7 2A 67 DC 51 21 6F 6E 97 A0 3D>)
+(   3,<2021-05-14 15:55:11.100 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc1d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       em LB = 1 SI = 32K 
+       data hash MD5: 32K
+       99 B2 42 31 0B 11 B5 32 61 83 A8 9C 07 8B C0 FA>)
+(   4,<2021-05-14 15:55:11.140 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc1d>,<TopSpin 4.1.1>,
+      <ft FT_mod = 6 PKNL = 1 SI = 32K 
+       data hash MD5: 32K
+       EA EE 62 29 DF D8 E5 FF 72 B1 35 D1 38 73 A8 FF>)
+(   5,<2021-05-14 15:55:11.245 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc1d>,<TopSpin 4.1.1>,
+      <apk 
+       data hash MD5: 32K
+       34 5C 0D 58 50 D7 9B 65 69 27 5E ED 32 98 28 4D>)
+(   6,<2021-05-14 15:55:11.275 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc1d>,<TopSpin 4.1.1>,
+      <abs n ABSG = 5 
+       data hash MD5: 32K
+       2A D0 A5 18 5A E4 F4 2D A9 99 DB 21 14 8E 8F 21>)
+(   7,<2021-05-14 15:55:14.173 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc1d>,<TopSpin 4.1.1>,
+      <apk 
+       data hash MD5: 32K
+       43 AE 31 B2 A9 0B 76 A8 70 7E 10 A1 24 A2 FD 9C>)
+(   8,<2021-05-14 15:55:17.617 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc1d>,<TopSpin 4.1.1>,
+      <abs n ABSG = 5 
+       data hash MD5: 32K
+       37 FB E2 DA 89 57 C4 1C CB 94 70 5B A3 B3 6A F4>)
+(   9,<2021-05-21 10:48:31.630 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0949_5_14_21" "/home/hvonesh/data"
+       data hash MD5: 32K
+       37 FB E2 DA 89 57 C4 1C CB 94 70 5B A3 B3 6A F4>)
+(  10,<2021-05-21 11:05:40.696 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<sipar>,<TopSpin 4.1.1>,
+      <processed data deleted by change of processing dimension from 1D to 2D>)
+(  11,<2021-05-21 11:09:45.866 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xfb F2: SI = 32K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 60.18132 PHC1 = 52.03919 F1: SI = 1K WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2 MC2 = 0
+       data hash MD5: 32K * 1K
+       FD E9 E0 81 82 81 83 6E 4F C0 ED FE DE 2B 87 62>)
+(  12,<2021-05-21 11:09:55.645 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <abs1 F1: ABSG = 5 ABSF1 = 9.6973 ABSF2 = -0.2973011
+       data hash MD5: 32K * 1K
+       FD E9 E0 81 82 81 83 6E 4F C0 ED FE DE 2B 87 62>)
+(  13,<2021-05-21 11:09:56.144 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <abs2 F2: ABSG = 5 ABSF1 = 160.336 ABSF2 = -4.996976
+       data hash MD5: 32K * 1K
+       FD E9 E0 81 82 81 83 6E 4F C0 ED FE DE 2B 87 62>)
+(  14,<2021-05-21 11:10:13.965 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xfb F2: SI = 32K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 60.18132 PHC1 = 52.03919 F1: SI = 1K WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2 MC2 = 0
+       data hash MD5: 32K * 1K
+       FD E9 E0 81 82 81 83 6E 4F C0 ED FE DE 2B 87 62>)
+(  15,<2021-05-21 11:17:45.910 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xfb F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 60.18132 PHC1 = 52.03919 F1: SI = 4 FT_mod = 6 FCOR = 0.5 PH_mod = 2 MC2 = 0
+       data hash MD5: 128K * 4
+       56 60 8E BF B1 B0 D8 15 B8 32 A3 8B 19 EB EE 22>)
+(  16,<2021-05-21 11:17:53.552 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 60.18132 PHC1 = 52.03919 F1: SI = 4 MC2 = 0
+       data hash MD5: 128K * 4
+       F4 1B E6 26 21 BE C9 04 3F 83 29 36 16 FC BD 16>)
+(  17,<2021-05-21 11:18:59.005 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<sipar>,<TopSpin 4.1.1>,
+      <processed data deleted by change of processing dimension from 2D to 1D>)
+(  18,<2021-05-21 11:19:26.980 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xfb F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 60.18132 PHC1 = 52.03919 F1: SI = 1K WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2 MC2 = 0
+       data hash MD5: 128K * 1K
+       56 B1 EE BD 64 83 DB F2 9E F3 C7 39 1D B0 B3 57>)
+(  19,<2021-05-21 11:19:33.075 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xfb F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 60.18132 PHC1 = 52.03919 F1: SI = 1K WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2 MC2 = 0
+       data hash MD5: 128K * 1K
+       56 B1 EE BD 64 83 DB F2 9E F3 C7 39 1D B0 B3 57>)
+(  20,<2021-05-21 11:19:49.533 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <abs1 F1: ABSG = 5 ABSF1 = 9.6973 ABSF2 = -0.2973011
+       data hash MD5: 128K * 1K
+       89 12 4E 7B F7 1D A4 3B 0F FA 04 93 26 11 6E E4>)
+(  21,<2021-05-21 11:19:55.225 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <abs1 F1: ABSG = 5 ABSF1 = 9.6973 ABSF2 = -0.2973011
+       data hash MD5: 128K * 1K
+       2B 7E 46 A7 70 3F DF 36 15 6A 5E FC 88 60 98 43>)
+(  22,<2021-05-21 11:19:58.581 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <abs2 F2: ABSG = 5 ABSF1 = 160.336 ABSF2 = -4.999733
+       data hash MD5: 128K * 1K
+       B3 10 D7 7C E5 D8 51 0A D0 5D 5C 6E 02 4A 21 71>)
+(  23,<2021-05-21 11:20:00.722 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <abs2 F2: ABSG = 5 ABSF1 = 160.336 ABSF2 = -4.999733
+       data hash MD5: 128K * 1K
+       86 0B 1A 10 82 59 8F 20 CE D2 15 2F 01 4A 1C 94>)
+(  24,<2021-05-21 11:22:25.410 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 60.18132 PHC1 = 52.03919 F1: SI = 1K MC2 = 0
+       data hash MD5: 128K * 1K
+       AB 4B 78 04 3D 28 32 7B 86 DD 6A E6 61 E5 57 10>)
+(  25,<2021-05-21 11:27:28.496 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 171.3825 PHC1 = -281.6815 F1: SI = 4 MC2 = 0
+       data hash MD5: 128K * 4
+       21 6A DC BC E9 FF 5E 99 F9 AF 9B 32 A4 FE 0F 58>)
+(  26,<2021-05-21 11:33:49.877 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 171.3825 PHC1 = -281.6815 F1: SI = 4 MC2 = 0
+       data hash MD5: 128K * 4
+       61 C9 57 9A 7D 9B C5 6E 21 5D 06 13 72 DC 82 45>)
+(  27,<2021-05-21 11:37:18.073 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 183.6064 PHC1 = -289.6092 F1: SI = 4 MC2 = 0
+       data hash MD5: 128K * 4
+       AB EE B7 4E D2 7B 24 A7 EB 3D 34 48 7F C3 62 CC>)
+(  28,<2021-07-01 16:09:28.946 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0947-template" "/home/hvonesh/data"
+       data hash MD5: 128K * 4
+       AB EE B7 4E D2 7B 24 A7 EB 3D 34 48 7F C3 62 CC>)
+(  29,<2021-07-01 16:27:36.013 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 183.6064 PHC1 = -289.6092 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       C2 C6 1F CB 11 AF 35 C9 E1 49 F4 9A F4 9F 2A 55>)
+(  30,<2021-07-01 16:34:17.205 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 183.6064 PHC1 = -289.6092 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       63 07 4B 87 A0 F5 5D BA 2B 73 1B 9E 58 0C 9C 44>)
+(  31,<2021-07-22 14:18:49.797 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0957-template" "/home/hvonesh/data"
+       data hash MD5: 128K * 32
+       63 07 4B 87 A0 F5 5D BA 2B 73 1B 9E 58 0C 9C 44>)
+(  32,<2021-07-22 14:50:14.301 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 183.6064 PHC1 = -289.6092 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       43 96 50 DE 99 0A 74 27 FB 43 E5 CB 81 67 3D EA>)
+(  33,<2021-07-22 16:47:30.350 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0957-template-7-22-21" "/home/hvonesh/data"
+       data hash MD5: 128K * 32
+       43 96 50 DE 99 0A 74 27 FB 43 E5 CB 81 67 3D EA>)
+(  34,<2021-07-22 18:12:21.482 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<proc2d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 183.6064 PHC1 = -289.6092 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       BF 8E 31 B8 37 8E FB 51 22 48 83 A8 1D B0 F8 B7>)
+$$ C:/Users/hanna/Desktop/Grad School/Y4/KIE/NMRs/HV21 - 2021/HV21 wedding weekend 7.22.21/HV21 0962/200/pdata/1/auditp.txt
+(  35,<2021-07-28 14:23:20.645 -0400>,<HARLEYS-LENOVOY\hanna>,<Harleys-LenovoYoga>,<proc2d>,<TopSpin 4.1.0>,
+      <CAT service failure
+       Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 183.6064 PHC1 = -289.6092 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       AA C9 B2 B8 6C 3F 08 1D 4C 76 9D 11 89 99 AF FF>)
+(  36,<2021-07-28 15:52:38.404 -0400>,<HARLEYS-LENOVOY\hanna>,<Harleys-LenovoYoga>,<proc2d>,<TopSpin 4.1.0>,
+      <CAT service failure
+       Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 186.81 PHC1 = -286.935 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       76 38 4A 86 FE 6B 60 5F F3 ED AD C5 29 0B 17 9E>)
+(  37,<2021-07-28 16:18:47.983 -0400>,<HARLEYS-LENOVOY\hanna>,<Harleys-LenovoYoga>,<proc2d>,<TopSpin 4.1.0>,
+      <CAT service failure
+       Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 1 FT_mod = 6 PKNL = 1 PHC0 = 186.81 PHC1 = -286.935 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       76 38 4A 86 FE 6B 60 5F F3 ED AD C5 29 0B 17 9E>)
+##END=
+
+$$ hash MD5
+$$ C3 30 FC B7 7C C8 35 2E C5 85 99 7C C9 DA 18 A1

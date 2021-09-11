@@ -1,0 +1,146 @@
+##TITLE= Audit trail, TopSpin 4.1.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= hvonesh
+$$ /home/hvonesh/data/hv21_0958/200/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-05-14 19:54:46.448 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+$$ /home/hvonesh/data/hv21_0949_5_14_21/3/audita.txt
+(   2,<2021-05-14 19:55:10.322 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '3bc77fce-b4ee-11eb-a92f-00139539c4a7'
+       started at 2021-05-14 19:54:46.458 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-05-14 19:55:10.320 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 64K
+       F6 AB C0 4B 6C E7 2A 67 DC 51 21 6F 6E 97 A0 3D>)
+(   3,<2021-05-21 10:48:31.627 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0949_5_14_21" "/home/hvonesh/data"
+       double data hash MD5: 64K
+       F6 AB C0 4B 6C E7 2A 67 DC 51 21 6F 6E 97 A0 3D>)
+$$ /home/hvonesh/data/hv21_0947/3/audita.txt
+(   4,<2021-05-21 11:05:40.690 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<sipar>,<TopSpin 4.1.1>,
+      <raw data deleted by change of acquisition dimension from 1D to 2D>)
+(   5,<2021-05-21 15:08:47.133 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(   6,<2021-05-21 15:09:29.471 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '70ec3a48-ba46-11eb-a306-00139539c4a7'
+       started at 2021-05-21 15:08:47.143 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-05-21 15:09:29.469 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 1
+       86 B5 59 8E EB 07 F5 57 92 B0 9C CF C0 65 09 AF>)
+(   7,<2021-05-21 15:15:50.745 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <raw data deleted by zg>)
+(   8,<2021-05-21 15:15:50.747 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(   9,<2021-05-21 15:17:11.049 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '6d694f18-ba47-11eb-9922-00139539c4a7'
+       started at 2021-05-21 15:15:50.761 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-05-21 15:17:11.049 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 2
+       31 42 F9 20 75 23 C6 9C 65 04 13 D5 32 7D DB 70>)
+(  10,<2021-05-21 15:21:24.671 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <raw data deleted by zg>)
+(  11,<2021-05-21 15:21:24.673 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(  12,<2021-05-21 15:22:05.269 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '347321e2-ba48-11eb-99bc-00139539c4a7'
+       started at 2021-05-21 15:21:24.684 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-05-21 15:22:05.268 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 2
+       87 40 9E 41 83 D8 A1 6E EE 3A 34 6A 3E E0 6D 2A>)
+(  13,<2021-05-21 15:32:00.715 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <raw data deleted by zg>)
+(  14,<2021-05-21 15:32:00.717 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(  15,<2021-05-21 15:33:21.029 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID 'af8eed60-ba49-11eb-a33b-00139539c4a7'
+       started at 2021-05-21 15:32:00.728 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-05-21 15:33:21.028 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 2
+       67 36 32 1F DA 6A BF A0 AF 60 61 8F D2 6B 5D 5E>)
+(  16,<2021-07-01 16:09:28.932 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0947-template" "/home/hvonesh/data"
+       double data hash MD5: 128K * 2
+       67 36 32 1F DA 6A BF A0 AF 60 61 8F D2 6B 5D 5E>)
+$$ /home/hvonesh/data/hv21_0957-template/3/audita.txt
+(  17,<2021-07-01 20:25:40.723 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <raw data deleted by zg>)
+(  18,<2021-07-01 20:25:40.724 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(  19,<2021-07-01 20:26:25.604 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '80d7aba2-daaa-11eb-bc0a-00139539c4a7'
+       started at 2021-07-01 20:25:40.736 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-07-01 20:26:25.601 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 1
+       A3 52 E9 86 F6 33 1F 44 25 99 C6 60 4D 99 F8 C9>)
+(  20,<2021-07-01 20:28:35.757 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <raw data deleted by zg>)
+(  21,<2021-07-01 20:28:35.759 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(  22,<2021-07-01 20:33:58.655 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID 'e92b62a2-daaa-11eb-9457-00139539c4a7'
+       started at 2021-07-01 20:28:35.769 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-07-01 20:33:58.654 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 1
+       77 47 AF 18 62 1D B0 C9 58 98 2E C5 EC C4 FF 86>)
+(  23,<2021-07-22 14:18:49.739 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0957-template" "/home/hvonesh/data"
+       double data hash MD5: 128K * 1
+       77 47 AF 18 62 1D B0 C9 58 98 2E C5 EC C4 FF 86>)
+$$ /home/hvonesh/data/hv21_0957-template-7-22-21/3/audita.txt
+(  24,<2021-07-22 18:42:38.784 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <raw data deleted by zg>)
+(  25,<2021-07-22 18:42:38.786 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(  26,<2021-07-22 18:48:00.474 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '96ca32c2-eb1c-11eb-8eb7-00139539c4a7'
+       started at 2021-07-22 18:42:38.796 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-07-22 18:48:00.473 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 1
+       AF C2 37 27 BD 19 E0 A6 38 C1 F9 40 F2 61 2D 17>)
+(  27,<2021-07-22 18:23:12.580 -0400>,<hvonesh>,<carbon.chem.lsa.umich.edu>,<dirdata>,<TopSpin 4.1.1>,
+      <wrpa from 1 3 "hv21_0957-template-7-22-21" "/home/hvonesh/data"
+       double data hash MD5: 128K * 1
+       AF C2 37 27 BD 19 E0 A6 38 C1 F9 40 F2 61 2D 17>)
+$$ /home/hvonesh/data/hv21_0958/200/audita.txt
+(  28,<2021-07-22 22:23:14.641 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <raw data deleted by zg>)
+(  29,<2021-07-22 22:23:14.643 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <acquisition in progress>)
+(  30,<2021-07-22 23:47:59.131 +0000>,<hvonesh>,<carbon>,<go4>,<TopSpin 4.1.1>,
+      <created by zg on 'Avance NEO 500' (carbon) by user 'hvonesh'
+       on data set with UUID '67f991f8-eb3b-11eb-b645-00139539c4a7'
+       started at 2021-07-22 22:23:14.686 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-07-22 23:47:59.130 +0000
+       configuration hash MD5:
+       38 C9 D8 79 CD 7E 7B 08 22 C6 7F 12 74 98 87 DE
+       double data hash MD5: 128K * 16
+       3C 20 38 9E DF A4 6E B6 13 CA F2 E7 55 92 EB 8B>)
+##END=
+
+$$ hash MD5
+$$ 73 1A 57 47 98 66 7E 83 E8 88 EA 18 9E EE 86 F3
