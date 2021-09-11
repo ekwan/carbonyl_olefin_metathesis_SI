@@ -1,0 +1,24 @@
+##TITLE= Parameter file, TopSpin 4.1.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= hvonesh
+$$ 2021-05-21 15:31:20.029 -0400  hvonesh@carbon.chem.lsa.umich.edu
+$$ /home/hvonesh/data/hv21_0948/100/acqu2
+$$ process /opt/topspin4.1.1/prog/mod/dirdata
+##$ACQT0= 0
+##$BF1= 500.27
+##$FnILOOP= 0
+##$FnMODE= 0
+##$NUC1= <1H>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= 2351.269
+##$ProjAngle= 0
+##$SFO1= 500.272351269
+##$SW= 9.99455594001329
+##$SW_h= 5000
+##$TD= 16
+##END=
