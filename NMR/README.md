@@ -14,12 +14,11 @@ Carbon KIEs were measured at natural abundance using [DEPT](https://pubs.acs.org
 - __`acquisition/`__ acquiring DEPT NMR data
 	- `eek_multi_DEPT` Bruker pulse sequence file for DEPT
 	- `eek_multi_DEPT.py` TopSpin Python program for running multiple samples
-	- `acquisition.md` instructions for installing and running DEPT experiments in TopSpin
+	- `README.md` instructions for installing and running DEPT experiments in TopSpin
 - __`processing/`__ converting raw NMR data to peak integrals
 	- `prenyl/` raw data for prenyl substrate
 	- `styrenyl/` raw data for styrenyl substrate
-	- `topspin.md` how to reference and phase spectra in TopSpin
-	- `jupyter.md` how to process all data as a batch in Jupyter Lab
+	- `README.md` how to reference and phase spectra in TopSpin and how to process all data as a batch in Jupyter Lab
 - __`analysis/`__ calculating KIEs and error bars
 
 ### Note on Raw Data
