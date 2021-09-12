@@ -2,7 +2,7 @@
 
 This directory contains spreadsheets to calculate KIEs and error bars from the DEPT integrals and standard deviations.  The calculations are based on this equation:
 
-<img src="../img/analysis1.png", height=150>
+<img src="../img/analysis1.png" height=150>
 
 where F<sub>1</sub> is the conversion of the light isotope, R<sub>SM</sub> is the isotope ratio in the recovered starting material, and R<sub>0</sub> is the isotope ratio in the unreacted starting material.  In carbon KIEs, the conversion of both isotopes is essentially the same, so we assume F = F<sub>1</sub>.  The isotope ratios R are defined as heavy divided by light.
 
