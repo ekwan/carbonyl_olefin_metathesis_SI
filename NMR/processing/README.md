@@ -23,7 +23,7 @@ Here, we will perform some rough phasing and reference the chemical shifts.
 - __Installation__
 	- [TopSpin](https://www.bruker.com/protected/en/services/software-downloads/nmr/nmr-topspin-license-for-academia.html) is freely available for academics.
 
-- __Open Data Files__
+- __Open Data Files__<br>
 	<img src="../img/processing1.png" height=400>
 	- Navigate to the data folder of interest.
 	- Double click on the sub-folder to open it ("1" in the figure above).
@@ -40,7 +40,7 @@ Here, we will perform some rough phasing and reference the chemical shifts.
 
 - __Reference__
 
-	<img src="../img/processing2.png" height=400>
+	<img src="../img/processing2.png" height=400><br>
 	- Referencing is needed for all samples because small differences in sample concentration or preparation can lead to changes in chemical shifts.  Referencing ensures that all integral regions are consistent.
 	- Click on the "Process" tab and press "Calib. Axis" to reference the selected spot.
 	- Changes are automatically saved to the processed data folder (`pdata/`).  This is the folder that Jupyter Lab will read in the next section.
@@ -62,17 +62,17 @@ Here, we will perform some rough phasing and reference the chemical shifts.
 	 - The figure above shows the regions that will be integrated as parallel lists.
 	 - Each peak can be phased independently.
 
-- __Check Baseline__
-	<img src="../img/processing5.png">
+- __Check Baseline__<br>
+	<img src="../img/processing5.png" height=150>
 	- A polynomial of `order=1` will be fit to non-peak regions.  Thus, it is important to integrate all significant peaks, regardless of whether they are of interest.
 	- Non-peak regions below `clip_below` and above `clip_above` will be ignored for the purposes of baseline correction.  Be sure to set these parameters appropriately.
 
-- __Run Integration__
- 	<img src="../img/processing6.png">
+- __Run Integration__<br>
+ 	<img src="../img/processing6.png" height=150>
  	- This code will run the integration.
  	- Integrals are reported in arbitrary units.  You can adjust the scaling factor here, but be sure to use the same scaling factor for all the notebooks.
  	
 - __Display Summary__
-	<img src="../img/processing7.png">
+	<img src="../img/processing7.png" width="100%">
 	- The last cell will display the results.
 	- Copy these cells into Excel to run the KIE analysis (see analysis section).
