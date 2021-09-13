@@ -1,7 +1,7 @@
 # Stepwise Carbonyl-Olefin Metathesis Reactions
 
 *Hannah L. Vonesh, Corin C. Wagen, Spencer E. McMinn,
-Joshua B. Thedford, Eugene E. Kwan, Corinna S. Schindler*
+Joshua B. Thedford, Eugene E. Kwan\*, Corinna S. Schindler\**
 
 This repository contains code, raw data, and procedures for reproducing the natural abundance carbon KIE measurements and computations reported in the paper.  The information given here would also be useful for applying the DEPT method for measuring KIEs to other chemical systems using Bruker NMR spectrometers.
 
