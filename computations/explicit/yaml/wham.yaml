@@ -1,0 +1,73 @@
+# presto config file
+
+type: equilibration
+
+timestep: 1
+high_atoms: 1-29
+stop_time: 7500
+checkpoint_interval: 100
+
+anchor: 2
+
+integrator: 
+    type: langevin
+    viscosity: 0.0001
+
+potential:
+    type: spherical_harmonic
+    radius: 14.7
+
+calculator: 
+    type: oniom
+    low_calculator:
+        type: xtb
+        gfn: 0
+        charge: 0
+        multiplicity: 1
+        parallel: 16
+
+    full_calculator:
+        type: xtb
+        gfn: 0
+        charge: 0
+        multiplicity: 6
+        parallel: 16
+
+    high_calculator:
+        type: gaussian
+        charge: 0
+        multiplicity: 6
+        route_card: "#p force b3lyp genecp empiricaldispersion=gd3bj pop=none int=noxctest"
+        footer: "-C -H -O 0\nmidix\n****\n-Fe -Cl 0\nLANL2DZ\n****\n\n-Fe -Cl 0\nLANL2DZ\n"
+        link0:
+            nprocshared: 16
+            mem: "16GB"
+        gaussian_chk: true
+
+constraints:
+    methyl1:
+        atom1: 8
+        atom2: [12, 13, 14]
+        which: max
+        equilibrium: 1.1
+        force_constant: 200
+    methyl2:
+        atom1: 5
+        atom2: [15, 16, 17]
+        which: max
+        equilibrium: 1.1
+        force_constant: 200
+    oxygen:
+        atom1: 1
+        atom2: 6
+        equilibrium: 1.95
+        force_constant: 200
+        direction: right_only
+
+bath_scheduler: 
+    type: constant
+    target_temp: 323
+
+termination_function:
+    constraint1: bond 1 4
+    constraint2: bond 2 3 

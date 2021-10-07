@@ -1,0 +1,94 @@
+anchor: 2
+bath_scheduler:
+  target_temp: 323
+  type: constant
+calculator:
+  full_calculator:
+    charge: 0
+    gfn: 0
+    multiplicity: 6
+    parallel: 16
+    type: xtb
+  high_calculator:
+    charge: 0
+    footer: '-C -H -O 0
+
+      midix
+
+      ****
+
+      -Fe -Cl 0
+
+      LANL2DZ
+
+      ****
+
+
+      -Fe -Cl 0
+
+      LANL2DZ
+
+      '
+    gaussian_chk: true
+    link0:
+      mem: 16GB
+      nprocshared: 16
+    multiplicity: 6
+    route_card: '#p force b3lyp genecp empiricaldispersion=gd3bj pop=none int=noxctest'
+    type: gaussian
+  low_calculator:
+    charge: 0
+    gfn: 0
+    multiplicity: 1
+    parallel: 16
+    type: xtb
+  type: oniom
+checkpoint_interval: 100
+constraints:
+  methyl1:
+    atom1: 8
+    atom2:
+    - 12
+    - 13
+    - 14
+    equilibrium: 1.1
+    force_constant: 200
+    which: max
+  methyl2:
+    atom1: 5
+    atom2:
+    - 15
+    - 16
+    - 17
+    equilibrium: 1.1
+    force_constant: 200
+    which: max
+  oxygen:
+    atom1: 1
+    atom2: 6
+    direction: right_only
+    equilibrium: 1.95
+    force_constant: 200
+  wham_x:
+    atom1: 2
+    atom2: 3
+    equilibrium: 1.55
+    force_constant: 500.0
+  wham_y:
+    atom1: 1
+    atom2: 4
+    equilibrium: 2.15
+    force_constant: 500.0
+high_atoms: 1-29
+integrator:
+  type: langevin
+  viscosity: 0.0001
+potential:
+  radius: 14.7
+  type: spherical_harmonic
+stop_time: 7500
+termination_function:
+  constraint1: bond 1 4
+  constraint2: bond 2 3
+timestep: 1
+type: equilibration
