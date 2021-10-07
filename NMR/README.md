@@ -6,7 +6,7 @@ This directory contains all the files that are needed to measure carbon KIEs via
 
 Carbon KIEs were measured at natural abundance using [DEPT](https://pubs.acs.org/doi/10.1021/jacs.6b10621) for two reactions:
 
-<img src="img/prenyl.png" height=200>
+<img src="img/prenyl.png" height=150>
 <img src="img/styrenyl.png" height=200>
 
 ### Contents
