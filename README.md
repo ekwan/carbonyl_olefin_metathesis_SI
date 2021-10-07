@@ -8,7 +8,8 @@ This repository contains code, raw data, and procedures for reproducing the natu
 ### Contents
 
 - `NMR/` Bruker scripts, raw data, Jupyter notebooks, and Excel spreadsheets for the acquisition, processing, and analysis of KIE data
-- `computations/` Gaussian and ORCA output files, scripts, and summaries to reproduce the  computations given in the paper
+- `computations/` Gaussian and ORCA output files, scripts, and summaries to reproduce the computations given in the paper
+- `spreadsheets/` SDKIE and Hammett study spreadsheets
 
 ### License
 
