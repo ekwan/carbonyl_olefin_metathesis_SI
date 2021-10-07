@@ -16,3 +16,5 @@ This folder contains the key computational files that were used in the paper.  C
 	These are stationary points along the reaction coordinate for the prenyl substrate calculated at B3LYP-D3(BJ)/jul-cc-pVDZ in the gas phase, implicit DCE, and implicit water.<br>
 - __`styrenyl/`__ <br>
 	These are stationary points along the reaction coordinate for the styrenyl substrate calculated at B3LYP-D3(BJ)/jul-cc-pVDZ in the gas phase, implicit DCE, and implicit water.
+- __`explicit/`__ <br>
+    Configuration files, Python scripts, starting configurations, and analysis scripts to generate the explicitly solvated free energy surface (in DCE).
